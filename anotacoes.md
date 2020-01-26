@@ -51,3 +51,13 @@ Para criar um controller
 Para criar um model juntamente com migration e controller
 
 	adonis make:model Nome -m -c
+
+
+Para criar validacao
+
+  adonis make:validator Nome
+
+
+Para criar tratamento de erro
+
+  adonis make:ehandler
