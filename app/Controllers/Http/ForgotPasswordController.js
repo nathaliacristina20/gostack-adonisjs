@@ -39,7 +39,6 @@ class ForgotPasswordController {
       const tokenExpired = moment()
         .subtract('2', 'days')
         .isAfter(user.token_created_at)
-
       if (tokenExpired) {
         return response
           .status(401)
