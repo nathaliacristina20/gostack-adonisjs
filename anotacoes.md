@@ -63,3 +63,12 @@ Para criar tratamento de erro
   adonis make:ehandler
 
   adonis make:hook
+
+
+# Redis
+  - adonis install @adonisjs/redis
+  docker run --name redis -p 6379:6379 -d redis:alpine
+
+# Kue
+  adonis kue:listen
+
