@@ -61,3 +61,5 @@ Para criar validacao
 Para criar tratamento de erro
 
   adonis make:ehandler
+
+  adonis make:hook
